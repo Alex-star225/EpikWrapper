@@ -6,7 +6,7 @@ this css has the general header/footer layout stuff
 general
 **/
 html,body{
-	background: #000000;
+	background: #fff;
 	color: #474747;
 	font: 16px/1.5 'Sailec', Arial, sans-serif;
 	width:100%;height:100%;
@@ -22,7 +22,7 @@ header
 **/
 header {
 	/* style */
-	background: #fff;
+	background: #1e1e1e;
 	color: #fff;
 	text-align: center;
 	/* layout */
@@ -41,7 +41,7 @@ header {
 	/* style */
 	font-size: 14px;
 	text-decoration: none;
-	color: #000000;
+	color: #fff;
 	border-radius: 6px;
 	/* layout */
 	display: inline-block;
@@ -53,8 +53,8 @@ header {
 	cursor: pointer;
 }
 /* small buttons */
-.button_small       { background: #000000 }
-.button_small:hover { background: #000000; color: #fff }
+.button_small       { background: #333 }
+.button_small:hover { background: #444; color: #d85e27 }
 /* big buttons */
 .button_big {
 	background-color: #d85e27;
@@ -102,13 +102,13 @@ header dropdowns
 }
 .dropdown_menu>a:hover {
 	background: #222;
-	color: #fff;
+	color: #d85e27;
 	cursor: pointer;
 }
 /* dropdown header and separation */
 .dropdown_menu>h2 {
 	/* style */
-	color: #000000;
+	color: #fff;
 	font-size: 15px;
 	/* layout */
 	margin:0;
@@ -124,7 +124,7 @@ header dropdowns
 footer
 **/
 footer{
-	background: #fff;
+	background: #1e1e1e;
 	margin-top: auto; /* footer at the foot */
 	display: flex;
 	justify-content: space-between
